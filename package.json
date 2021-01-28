@@ -1,0 +1,14 @@
+{
+  "name": "possible-cennznet-error",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HiruSylo/OliveTinWolf.git",
+  "author": "Hiruna Jayamanne <hiru@sylo.io>",
+  "license": "MIT",
+  "dependencies": {
+    "@cennznet/api": "^1.3.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

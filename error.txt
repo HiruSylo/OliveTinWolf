@@ -1,0 +1,16 @@
+/Users/intern/Documents/OliveTinWolf/node_modules/@polkadot/rpc-provider/coder/index.js:84
+      throw new Error(`${code}: ${message}${formatErrorData(data)}`);
+            ^
+
+Error: -32602: Invalid params: invalid type: string "0x0000000000000000ffffffffffffffff", expected u128.
+    at RpcCoder._checkError (/Users/intern/Documents/OliveTinWolf/node_modules/@polkadot/rpc-provider/coder/index.js:84:13)
+    at RpcCoder.decodeResponse (/Users/intern/Documents/OliveTinWolf/node_modules/@polkadot/rpc-provider/coder/index.js:47:10)
+    at WsProvider.value (/Users/intern/Documents/OliveTinWolf/node_modules/@polkadot/rpc-provider/ws/index.js:215:90)
+    at W3CWebSocket.value [as onmessage] (/Users/intern/Documents/OliveTinWolf/node_modules/@polkadot/rpc-provider/ws/index.js:195:153)
+    at W3CWebSocket._dispatchEvent [as dispatchEvent] (/Users/intern/Documents/OliveTinWolf/node_modules/yaeti/lib/EventTarget.js:107:17)
+    at W3CWebSocket.onMessage (/Users/intern/Documents/OliveTinWolf/node_modules/websocket/lib/W3CWebSocket.js:234:14)
+    at WebSocketConnection.<anonymous> (/Users/intern/Documents/OliveTinWolf/node_modules/websocket/lib/W3CWebSocket.js:205:19)
+    at WebSocketConnection.emit (node:events:379:20)
+    at WebSocketConnection.processFrame (/Users/intern/Documents/OliveTinWolf/node_modules/websocket/lib/WebSocketConnection.js:554:26)
+    at /Users/intern/Documents/OliveTinWolf/node_modules/websocket/lib/WebSocketConnection.js:323:40
+error Command failed with exit code 1.
